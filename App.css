@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+}
+.Header{
+  background-color: #F19720;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.subHeaderinputarea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: #df6b1b;
+  padding: 16px;
+}
+.subHeaderinputarea select{
+  border-radius: 20px;
+  padding: 5px;
+  width: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.subHeaderinputarea input{
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  width: 10%;
+}
+.subHeaderinputarea input::placeholder{
+  padding: 5px;
+}
+.add-btn{
+  padding: 5px;
+  border: none;
+  background-color: seagreen;
+  color: #fff;
+  margin-left: 20px;
+  border-radius: 20px;
+  width: 5%;
+}
+.main{
+  background-color: #4c3423;
+  color: #fff;
+  height: 70vh;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates 5 equal-width columns */
+  grid-template-rows: repeat(6, 1fr); /* Creates 6 equal-height rows */
+  grid-gap: 8px;
+}
+.cross-img{
+  width: 29px;
+  display: flex;
+  float: right;
+  justify-content: center;
+}
+.footer{
+  background-color: #67c1a3;
+  padding: 19px;
+  text-align: center;
+}
+.sortingparrt{
+  position: absolute;
+  bottom: 12%;
+  left: 42%;
+}
+.clear-btn{
+  margin-left: 9px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;  
+  background-color: #df6b1b;
+}
+.sorting{
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #df6b1b;
+}
