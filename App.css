@@ -87,3 +87,33 @@
   border-radius: 10px;
   background-color: #df6b1b;
 }
+
+@media (max-width:1000px) {
+  .main{
+    max-width: 100%;
+    display: flex;
+  }
+  .subHeaderinputarea{
+    width: 100%;
+  }
+  .subHeaderinputarea h5{
+    display: flex;
+  }
+  .subHeaderinputarea input{
+    width: 70%;
+  }
+  .subHeaderinputarea button{
+    width: 70%;
+  }
+  .subHeaderinputarea select {
+    width: 70%;
+  }
+  
+  .sortingparrt{
+    position: relative;
+    top: -50px;
+    left: 15px;
+  }
+}
+
+

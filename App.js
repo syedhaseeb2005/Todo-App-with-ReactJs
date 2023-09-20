@@ -89,10 +89,10 @@ function App() {
       <div>
 
       <div className='subHeaderinputarea'>
-      <h5 style={{fontSize:'1.1rem'}}>
+      <h5 style={{fontSize:'1.1rem'}} className='text'>
         What do you need for your 😻 trip?
       </h5>
-      <select onChange={(e) => Setselectnumber(e.target.value)} value={selectnumber}>
+      <select className='first-select' onChange={(e) => Setselectnumber(e.target.value)} value={selectnumber}>
         <option value='1'>1</option>
         <option value='2'>2</option>
         <option value='3'>3</option>
